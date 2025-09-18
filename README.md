@@ -11,6 +11,6 @@ python3 -m venv .venv
 
 source .venv/bin/activate
 
-pip install streamlit matplotlibstreamlit 
+pip install streamlit matplotlib
 
-run app.py
+streamlit run app.py
